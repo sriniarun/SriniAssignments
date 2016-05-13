@@ -1,0 +1,143 @@
+.container_24{
+	
+	width: 100%;
+}
+
+body{
+	background-color: gray;
+	background-image: url("../Image/csk_bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+body img, p{
+	margin-left: 20px;
+}
+
+header{
+	text-align: center;
+}
+header nav {
+	width: 100%;
+	display:inline;
+}
+
+header h1{
+float:left;
+color:white;
+font-size: 45px;
+text-shadow: red 2px 2px;
+margin-left: 520px;
+padding-right: 300px;
+overflow: hidden;
+color:white;
+}
+
+li {
+    float: right;
+}
+
+nav li{
+	display:inline;
+	float:left;
+	font-size: 25px;
+	text-align: center;
+    text-decoration: none;
+}
+
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.hovering .hover {
+    color: green;
+    text-decoration:underline;
+    font-size: 28px;
+
+}
+*/
+p{
+	display: block;
+	color: white;
+}
+
+.main{
+	margin: 30px 0;
+}
+
+.primary {
+    float:left;
+    text-align: center;
+	height:450px;
+    width: 318px;
+
+}
+
+#navigator{
+	text-align: center;
+}
+
+.content{
+    float:left;
+    text-align: center;
+    width: 318px;
+
+}
+.secondary{
+	   float:left;
+    text-align: center;
+    width: 318px;
+}
+
+
+.span12 {
+    width: 100%;
+    
+            margin:auto;
+            float:center;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+    }
+.span12 img{
+	width: 92%;
+}
+  img{
+  	margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+footer .nav-footer-links
+{
+    color: #999999;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+footer ul li{
+	margin-right: 50px;
+	list-style-type: none;
+	display: block;
+}
+#main{
+	padding-top: 200px;
+}
+
+#img{
+	position: relative;
+}
+#h2{
+	position: absolute;
+	top: 950px;
+	left: 470px;
+	color:white;
+}
+
