@@ -1,0 +1,48 @@
+body {
+  background: url(../Image/kabali_bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#img{
+	width: 85%;
+	height: 65%;
+}
+li{
+	float: right;
+	display: inline;
+	list-style-type: none;
+	padding-right: 1%;
+	font-size: 17px;
+
+}
+
+.row{
+	padding-top: 10%;
+}
+.col-sm-4,strong{
+	color:black;
+}
+.col-sm-4 span{
+	font-size: 18px;
+}
+.col-sm-4 h3{
+	text-align: center;
+}
+#span{
+	text-shadow: gray 3px 3px 3px;
+	font-size: 35px;
+	padding-left: 3%;
+	color: lightblue;
+}
+#overimage{
+	padding-top: 55%;
+	padding-left: 35%;
+	font-size: 30px;
+}
+.panel-footer{
+	padding-top: 35px;
+	background-color: inherit;
+	border: none;
+}
