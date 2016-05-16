@@ -1,69 +1,216 @@
 <!DOCTYPE html>
-	<head>
-	  <title>One and Only SuperStar Rajnikanth - Bootstrap</title>
-	  <meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <link rel="stylesheet" href="css/bootstrap.css">
-	  <script src="js/bootstrap.js"></script>
-	  <link rel="stylesheet" type="text/css" href="css/Style_bootstrap.css">
-	</head>
-	<body>
-		<div class="panel-heading" >
-			<span id="span">RAJNIKANTH</span>
-			<ul>
-				<li><span class="glyphicon glyphicon-phone"/> <a href = "#">ContactUs</a> </li>
-				<li><a href = "#"> Images </a> </li>
-				<li><a href = "#"> Blockbusters </a> </li>
-				<li><span class="glyphicon glyphicon-home"/><a href = "#"> Home </a> </li>
-			</ul>
-		</div>
+<html>
+   <head>
+      <!-- Website Title & Description for Search Engine purposes -->
+      <title>Rajnikanth - One and Only Super Star</title>
+      <meta name="description" content="">
+      <!-- Mobile viewport optimized -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <!-- Bootstrap CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+      <!-- Include Modernizr in the head, before any other Javascript -->
+      <script src="js/modernizr-2.6.2.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/Style_bootstrap.css">
+   </head>
+   <body>
+      <div class="container" id="main">
+         <div class="navbar navbar-fixed-top">
+            <div class="container">
+               <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+               <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <p class="navbar-brand" >Rajnikanth</p>
+               <div class="nav-collapse collapse navbar-responsive-collapse">
+                  <ul class="nav navbar-nav">
+                     <li class="active">
+                        <span class="glyphicon glyphicon-home"/>
+                        <a href="#">Home</a>
+                     </li>
+                     <li>
+                        <span class="glyphicon glyphicon-phone"/><a href = "#">ContactUs</a>
+                     <li>
+                  </ul>
+                  <form class="navbar-form pull-left">
+                     <input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+                     <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                  </form>
+                  <!-- end navbar-form -->
+               </div>
+               <!-- end nav-collapse -->
+            </div>
+            <!-- end container -->
+         </div>
+         <!-- end navbar -->
+         <div class="carousel slide" id="myCarousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+               <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+               <li data-slide-to="1" data-target="#myCarousel"></li>
+               <li data-slide-to="2" data-target="#myCarousel"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+               <div class="item active" id="slide1">
+                  <div class="carousel-caption">
+                     <h4>Title Card</h4>
+                  </div>
+                  <!-- end carousel-caption-->
+               </div>
+               <!-- end item -->
+               <div class="item" id="slide2">
+                  <div class="carousel-caption">
+                     <h4>Stylish Guy!!!</h4>
+                  </div>
+                  <!-- end carousel-caption-->
+               </div>
+               <!-- end item -->
+               <div class="item" id="slide3">
+                  <div class="carousel-caption">
+                     <h4>Age is just a number</h4>
+                  </div>
+                  <!-- end carousel-caption-->
+               </div>
+               <!-- end item -->
+               <div class="item" id="slide4">
+                  <div class="carousel-caption">
+                     <h4></h4>
+                  </div>
+                  <!-- end carousel-caption-->
+               </div>
+               <!-- end item -->
+            </div>
+            <!-- carousel-inner -->
+            <!-- Controls -->
+            <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+            <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+         </div>
+         <!-- end myCarousel -->
+         
+         <div class="row" id="bigCallout">
+            <div class="col-12">
+               <div class="alert alert-success alert-block fade in" id="successAlert">
+                  <button type="button" class="close" data-dismiss="alert">&times;</button>
+                  <p>Its time for you to say.</p>
+                  <h4>He is My Man!</h4>
+               </div>
+               <!-- end alert -->
+               <!-- Visible only on small devices -->
+               <div class="well well-small visible-sm">
+                  <a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Call now</a>
+               </div>
+               <!-- end well-small -->
+               <div class="well">
+                  <div class="page-header">
+                     <h1>GOOSEBUMPS!!!</h1>
+                  </div>
+                  <!-- end page-header -->
+                  <img src="Image/titlecard.jpg" class="img-responsive" alt="Responsive image">
+                  <p>
+                    That Goosebump moments for each and every fan of Super Star <em>Rajnikanth</em> fan is that the time when they see or just even hear title card of his movie. Fans go crazy as soon they see name SSRK - SUPER STAR RAJNIKANTH. His fans base doesnt attracts just only one particular age group. He has fans all over world.
+                  </p>
+                  </p>
+                  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">I want to be part of Rajni-Mania</button>
 
-		<div class="container" style="float: clearboth" id="container">
-			  <div class="row">
-			    <div class="col-sm-4">
-					<img class="img-circle" src="Image/Vintage.jpg" height="400" width="318"></img>
-					<p> <h3>VINTAGE RAJNI. </h3>
-						<strong>Rajnikanth - In Early 90's. My Grandpa showed this pic to my Dad and said <span>"He is my Man."</span> He continued his love and attraction towards this guy.<em>This is Vintage epic pic of RAJNIKANTH with cigars in his hands and smoke around him.</em></strong>
-					</p>
-			    </div>
-			    <div  class="col-sm-4">
-				    <img class="img-circle"src="Image/Annamalai.jpg" height="400" width="318"></img>
-				    <p><h3>SMOKING HOT!!!</h3>
-						<strong>Yup!. Thats the name my Dad said while he introduced <span>"He is Man"</span> to me. It followed from my Grandpa to my Dad they are big fans of Rajnikanth. <em> This is a pic from Annamalai, where he conquers the whole business industry starting as a milk man.</em> </strong>
-					</p>
-			    </div>
-			    <div class="col-sm-4">
-				     <img class="img-circle" src="Image/Baasha.jpg" height="400" width="318"></img>        
-				     <p><h3>BAASHA - The King of Dons.</h3>
-						<strong>This is my generation am eagerly waiting to show this pic to my son adnd say <span>"He is my Man"</span>. And am damn sure, even he will be a die hard of RAJNIKANTH as me. <em> Baasha is set as one of the biggest blockbuster of Rajnikanth.</em></strong>
-					</p>
-			    </div>
-			    <div>
-			    	<p id="overimage"> That Goosebump Moment </p>
-			    	<img src="Image/titleCard.jpg" alt="Titlecard" id="img" class="img-responsive img-rounded center-block" />
-			    	<strong >That Goosebump moments for each and every fan of Super Star <em>Rajnikanth</em> fan is that the time when they see or just even hear title card of his movie. Fans go crazy as soon they see name SSRK - SUPER STAR RAJNIKANTH. His fans base doesnt attracts just only one particular age group. He has fans all over world. </strong>
-			    </div>
-		    </div>
-
-
-		    <div class="panel-footer">
-		    	<ul>
-					<li>
-						<a href="https://twitter.com/superstarrajini" target="_blank"><img src="Image/twitter.png"/></a>
-					</li>
-					<li>
-						<a href="https://www.youtube.com/watch?v=9mdJV5-eias"  target="_blank"><img src="Image/youtube.png"/></a>
-					</li>
-					<li>
-							<a href="https://www.facebook.com/ssrkfans"  target="_blank"><img src="Image/fb.png"/></a>
-					</li>
-					<li>
-						<center>
-							<p style="font-size:18px">@ 2016 RajniKanth Official Website.  All rights reserved.</p>	
-						</center>
-					</li>
-				</ul>
-		    </div>
-		</div>
-	</body>
+				  <!-- Modal -->
+				  <div class="modal fade" id="myModal" role="dialog">
+				    <div class="modal-dialog">
+				    
+				      <!-- Modal content-->
+				      <div class="modal-content">
+				        <div class="modal-header">
+				          <button type="button" class="close" data-dismiss="modal">&times;</button>
+				          <h4 class="modal-title">Confirmation</h4>
+				        </div>
+				        <div class="modal-body">
+				          <p>You are now one of fan army of RAJNIKANTH.Time to say that he is your man.</p>
+				        </div>
+				        <div class="modal-footer">
+				          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				        </div>
+				      </div>
+				      
+				    </div>
+				  </div>
+               </div>
+               <!-- end well -->
+            </div>
+            <!-- end col-12 -->
+         </div>
+         <!-- end bigCallout -->
+         <div class="row" id="features">
+            <div class="col-sm-4 feature">
+               <div class="panel">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">Vintage Rajni</h3>
+                  </div>
+                  <!-- end panel-heading -->
+                  <img src="Image/Vintage.jpg" alt="Vintage" class="img-circle">
+                  <p>Rajnikanth - In Early 90's. My Grandpa showed this pic to my Dad and said <span>"He is my Man."</span> He continued his love and attraction towards this guy.<em>This is Vintage epic pic of RAJNIKANTH with cigars in his hands and smoke around him.</em></p>
+                  <a href="http://www.rajinikanth.com/history.htm" target="_blank" class="btn btn-warning btn-block">Early 80's</a>
+               </div>
+               <!-- end panel -->
+            </div>
+            <!-- end feature -->
+            <div class="col-sm-4 feature">
+               <div class="panel">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">Smoking Hot!!!</h3>
+                  </div>
+                  <!-- end panel-heading -->
+                  <img src="Image/Annamalai.jpg" alt="Smoking Hot" class="img-circle" >
+                  <p>Yup!. Thats the name my Dad said while he introduced <span>"He is Man"</span> to me. It followed from my Grandpa to my Dad they are big fans of Rajnikanth. <em> This is a pic from Annamalai, where he conquers the whole business industry starting as a milk man.</em> </p>
+                  <a href="http://www.rajinikanth.com/history.htm" target="_blank" class="btn btn-warning btn-block">In 1990's</a>
+                </div>
+               <!-- end panel -->
+            </div>
+            <!-- end feature -->
+            <div class="col-sm-4 feature">
+               <div class="panel">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">BAASHA - The King of Dons.</h3>
+                  </div>
+                  <!-- end panel-heading -->
+                  <img src="Image/Baasha.jpg" alt="Baasha" class="img-circle" >
+                  <p>This is my generation am eagerly waiting to show this pic to my son adnd say <span>"He is my Man"</span>. And am damn sure, even he will be a die hard of RAJNIKANTH as me. <em> Baasha is set as one of the biggest blockbuster of Rajnikanth.</em></p>
+                  <a href="http://www.rajinikanth.com/history.htm" target="_blank" class="btn btn-warning btn-block">Early 20k's</a>
+               </div>
+               <!-- end panel -->
+            </div>
+            <!-- end feature -->
+         </div>
+         <!-- end features -->
+      </div>
+      <!-- end container -->
+      <br><br><br><br><br><br><br><br>
+      <footer>
+         <div class="container">
+         <div class="row">
+         <div class="col-sm-2">
+            <h4>Copyright @ 2016 Rajnikanth's Fan Club.</h4>
+         </div>
+         <!-- end col-sm-2 -->
+         <div class="col-sm-2">
+            <h4>Follow Us</h4>
+            <ul class="unstyled">
+               <li><a href="#">Twitter</a></li>
+               <li><a href="#">Facebook</a></li>
+               <li><a href="#">Instagram</a></li>
+            </ul>
+         </div>
+         <!-- end col-sm-2 -->
+      </footer>
+      <!-- All Javascript at the bottom of the page for faster page loading -->
+      <!-- Custom JS -->
+      <script src="js/script.js"></script>
+      <!-- First try for the online version of jQuery-->
+      <script src="http://code.jquery.com/jquery.js"></script>
+      <!-- If no online access, fallback to our hardcoded version of jQuery -->
+      <script>window.jQuery || document.write('<script src="js/jquery-1.8.2.min.js"><\/script>')</script>
+      <!-- Bootstrap JS -->
+      <script src="js/bootstrap.min.js"></script>
+   </body>
 </html>
